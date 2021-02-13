@@ -1,5 +1,5 @@
 - 本sql公开在：https://github.com/FermHan/gulimall
-- 参考了大神的sql：https://github.com/1046762075/mall
+- 参考了视频评论区 特立独行ベ猫 大神的sql：https://github.com/1046762075/mall
 
 
 本sql在其他大神sql的基础上，修正了一些内容。
