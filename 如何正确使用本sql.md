@@ -13,3 +13,7 @@ sql里的数据库都是`mall_admin、mall_ops、...`形式的，而db表都基�
 
 另注：
 - 其实我个人项目里数据库是以guli_admin这种格式命名了，但为了你们能参考大神的https://github.com/1046762075/mall  本处的sql我还是用mall_admi格式吧
+
+在数据库的 pms_attr 表加上value_type字段，类型为tinyint就行；
+在代码中，AttyEntity.java、AttrVo.java中各添加：private Integer valueType，
+在AttrDao.xml中添加：《result property="valueType" column="value_type"/》  （把尖括号换成英文的）
